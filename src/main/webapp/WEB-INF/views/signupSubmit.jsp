@@ -9,12 +9,8 @@
 </head>
 <body>
 <h1>
-	회원정보 조회
+	회원가입 완료
 </h1>
-
-<P>1. <a href="/lec9/getMember/id">아이디로 조회하기</a></P>
-<P>2. <a href="/lec9/getMember/email">이메일로 조회하기</a></P>
-<P>3. <a href="/lec9/getMember/phoneNumber">전화번호로 조회하기</a></P>
-
+<a href="/lec9">Home</a>
 </body>
 </html>
