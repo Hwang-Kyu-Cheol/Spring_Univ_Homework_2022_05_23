@@ -13,7 +13,7 @@
 	${userName} 님 정보 수정
 </h1>
 <% request.setCharacterEncoding("UTF-8"); %>
-<form:form action="/lec9/modify/submit" modelAttribute="member">
+<form:form action="/lec9/modify" modelAttribute="member">
 	<p> <label> <spring:message code="id" />:<br>
 	<form:input path="id" /> <form:errors path="id" /> </label> </p>
 	<p> <label> <spring:message code="password" />:<br>

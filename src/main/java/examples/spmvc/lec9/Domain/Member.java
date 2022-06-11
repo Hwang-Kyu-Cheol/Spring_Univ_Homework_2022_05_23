@@ -1,4 +1,4 @@
-package examples.spmvc.lec9;
+package examples.spmvc.lec9.Domain;
 
 import java.time.LocalDate;
 
@@ -30,6 +30,8 @@ public class Member {
 	
 	@DateTimeFormat(pattern="yyyyMMdd")
 	private LocalDate birthday;
+	
+	public Member() {}
 	
 	public String getId() {
 		return id;

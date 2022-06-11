@@ -1,9 +1,8 @@
-package examples.spmvc.lec9;
+package examples.spmvc.lec9.Form;
 
-import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
 
-public class LoginInfo {
+public class LoginForm {
 	
 	@NotEmpty
 	private String userId;

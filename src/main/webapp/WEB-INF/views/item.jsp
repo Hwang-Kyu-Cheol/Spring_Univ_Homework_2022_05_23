@@ -9,15 +9,23 @@
 </head>
 <body>
 <h1>
-	${member.name} 님 정보 조회
+	전체 상품 보기
 </h1>
 
-<P> 아이디 : ${member.id} </P>
-<P> 이름 : ${member.name} </P>
-<P> 이메일 : ${member.email} </P>
-<P> 주소 : ${member.address} </P>
-<P> 휴대폰 번호 : ${member.phoneNumber} </P>
-<P> 생일 : ${member.birthday} </P>
+<table border="1">
+	<th>순서</th>
+	<th>상품 이름</th>
+	
+	<c:forEach items="${ itemList }" var="item">
+	
+	<tr>
+		<td>${ item.id }</td>
+		<td><a href="/lec9/item/${ item.id }">${ item.name }</a></td>
+	</tr>
+
+	</c:forEach>
+</table>
+
 <a href="/lec9">Home</a>
 </body>
 </html>

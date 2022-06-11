@@ -14,7 +14,7 @@
 </h1>
 
 <% request.setCharacterEncoding("UTF-8"); %>
-<form:form action="/lec9/signup/submit" modelAttribute="member">
+<form:form action="/lec9/signup" modelAttribute="member">
 	<p> <label> <spring:message code="id" />:<br>
 	<form:input path="id" /> <form:errors path="id" /> </label> </p>
 	<p> <label> <spring:message code="password" />:<br>
